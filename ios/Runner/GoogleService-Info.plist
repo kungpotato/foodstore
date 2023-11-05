@@ -2,24 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>557296019628-1hr9hc4dss6pg89hqehs3f618knqulaf.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.557296019628-1hr9hc4dss6pg89hqehs3f618knqulaf</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>557296019628-mn0tgk92v0plq5b0l0ctrqebsf48q4qo.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAHfa_cZOaN96b15Lf2YGGfor-LmzVMQoY</string>
+	<string>AIzaSyDxxiky5nATY6sr8PBILSpuVgJjw65Q1og</string>
 	<key>GCM_SENDER_ID</key>
-	<string>557296019628</string>
+	<string>546281158051</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.emerapp.app</string>
+	<string>com.foodstore.app</string>
 	<key>PROJECT_ID</key>
-	<string>emerapp-59c53</string>
+	<string>foodstore-88ca5</string>
 	<key>STORAGE_BUCKET</key>
-	<string>emerapp-59c53.appspot.com</string>
+	<string>foodstore-88ca5.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:557296019628:ios:d2a99e5269937b6e609709</string>
+	<string>1:546281158051:ios:8ddb3fc864ffe3701a9616</string>
 </dict>
 </plist>

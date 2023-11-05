@@ -50,7 +50,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.emerapp.app"
+        applicationId "com.foodstore.app"
         minSdkVersion 28
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()

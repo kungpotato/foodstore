@@ -50,21 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBx373r_Cqc5gHZNpPH23fUvSTFq7M9mpg',
-    appId: '1:557296019628:android:d216c25380eb2d8a609709',
-    messagingSenderId: '557296019628',
-    projectId: 'emerapp-59c53',
-    storageBucket: 'emerapp-59c53.appspot.com',
+    apiKey: 'AIzaSyBRUXGSN4WxXDWsvlPwjzwBFKmSM99Oz_I',
+    appId: '1:546281158051:android:4d46f7bde7e39bc71a9616',
+    messagingSenderId: '546281158051',
+    projectId: 'foodstore-88ca5',
+    storageBucket: 'foodstore-88ca5.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAHfa_cZOaN96b15Lf2YGGfor-LmzVMQoY',
-    appId: '1:557296019628:ios:d2a99e5269937b6e609709',
-    messagingSenderId: '557296019628',
-    projectId: 'emerapp-59c53',
-    storageBucket: 'emerapp-59c53.appspot.com',
-    androidClientId: '557296019628-mn0tgk92v0plq5b0l0ctrqebsf48q4qo.apps.googleusercontent.com',
-    iosClientId: '557296019628-1hr9hc4dss6pg89hqehs3f618knqulaf.apps.googleusercontent.com',
-    iosBundleId: 'com.emerapp.app',
+    apiKey: 'AIzaSyDxxiky5nATY6sr8PBILSpuVgJjw65Q1og',
+    appId: '1:546281158051:ios:8ddb3fc864ffe3701a9616',
+    messagingSenderId: '546281158051',
+    projectId: 'foodstore-88ca5',
+    storageBucket: 'foodstore-88ca5.appspot.com',
+    iosBundleId: 'com.foodstore.app',
   );
 }
