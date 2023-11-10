@@ -56,22 +56,6 @@ mixin _$AuthStore on AuthStoreBase, Store {
     });
   }
 
-  late final _$profileAtom =
-      Atom(name: 'AuthStoreBase.profile', context: context);
-
-  @override
-  ProfileData? get profile {
-    _$profileAtom.reportRead();
-    return super.profile;
-  }
-
-  @override
-  set profile(ProfileData? value) {
-    _$profileAtom.reportWrite(value, super.profile, () {
-      super.profile = value;
-    });
-  }
-
   late final _$AuthStoreBaseActionController =
       ActionController(name: 'AuthStoreBase', context: context);
 
@@ -109,23 +93,11 @@ mixin _$AuthStore on AuthStoreBase, Store {
   }
 
   @override
-  void setProfile(ProfileData? data) {
-    final _$actionInfo = _$AuthStoreBaseActionController.startAction(
-        name: 'AuthStoreBase.setProfile');
-    try {
-      return super.setProfile(data);
-    } finally {
-      _$AuthStoreBaseActionController.endAction(_$actionInfo);
-    }
-  }
-
-  @override
   String toString() {
     return '''
 status: ${status},
 loading: ${loading},
-user: ${user},
-profile: ${profile}
+user: ${user}
     ''';
   }
 }

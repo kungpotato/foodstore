@@ -91,6 +91,7 @@ class AppState extends State<App> {
             title: 'My App',
             theme: light,
             darkTheme: dark,
+            debugShowCheckedModeBanner: false,
             localizationsDelegates: [
               AppLocalizations.delegate,
               GlobalMaterialLocalizations.delegate,

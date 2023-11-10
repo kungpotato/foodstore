@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:emer_app/core/exceptions/app_error_hadler.dart';
-import 'package:emer_app/data/profile_data.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mobx/mobx.dart';
 
@@ -26,9 +25,6 @@ abstract class AuthStoreBase with Store {
   @observable
   User? user;
 
-  @observable
-  ProfileData? profile;
-
   @action
   void setStatus(AuthStatus st) => status = st;
 
@@ -37,9 +33,6 @@ abstract class AuthStoreBase with Store {
 
   @action
   void setUSer(User? data) => user = data;
-
-  @action
-  void setProfile(ProfileData? data) => profile = data;
 
   void setSignIn() => setStatus(AuthStatus.authenticated);
 
