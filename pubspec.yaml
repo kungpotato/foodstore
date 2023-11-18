@@ -54,6 +54,7 @@ dependencies:
   flutter_feather_icons: ^2.0.0+1
   kung_package:
     git: https://github.com/kungpotato/kung_ui_kit_flutter.git
+  flutter_slider_drawer: ^2.1.3
 
 dev_dependencies:
   flutter_test:
