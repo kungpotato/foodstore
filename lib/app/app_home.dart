@@ -35,7 +35,7 @@ class _AppHomeState extends State<AppHome> {
         key: _sliderDrawerKey,
         appBar: SliderAppBar(
           title: Text(
-            'เลือกเมนู',
+            'Food store',
             style: context.theme.textTheme.headlineLarge
                 ?.copyWith(color: context.theme.primaryColor),
           ),
